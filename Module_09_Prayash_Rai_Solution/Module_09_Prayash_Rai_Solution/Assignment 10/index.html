@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="form-section">
+            <h1>Registration Form</h1>
+            <form id="simpleForm" method="post">
+                <div>
+                    <label for="firstName"> First Name : </label>
+                    <input id="firstName" type="text" placeholder="First Name" required>
+                </div>
+                <div>
+                    <label for="lastName"> Last Name : </label>
+                    <input id="lastName" type="text" placeholder="Last Name" required>
+                </div>
+                <div>
+                    <label for="email"> Email : </label>
+                    <input id="email" type="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <label for="city"> City </label>
+                    <select id="city">
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Nagpur">Nagpur</option>
+                        <option value="Nanded">Nanded</option>
+                        <option value="Osmanabad">Osmanabad</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="gender">Gender :</label>
+                    <input type="radio" id="male" name="gender" value="Male" required />
+                    <label for="male"> Male </label>
+                    <input type="radio" id="female" name="gender" value="Female" required />
+                    <label for="female"> Female </label>
+                    <input type="radio" id="other" name="gender" value="Other" required />
+                    <label for="other"> Other </label>
+                </div>
+                <div>
+                    <!-- <button type="submit" value="submit" onclick="submitData()"> Submit</button> -->
+                    <input type="button" value="submit" onclick="submitData()" />
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

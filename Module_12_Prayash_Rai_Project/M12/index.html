@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+    <link rel="styleSheet" href="./style.css">
+</head>
+
+<body>
+    <header class="heading">
+        Age Calculator
+    </header>
+    <main>
+        <article class="sub-heading-container">
+            <div class="sub-heading">
+                <div class="date">Date(DD)</div>
+                <div class="month">Month(MM)</div>
+                <div class="year">Year(YYYY)</div>
+            </div>
+        </article>
+        <div id="form-container">
+            <input type="text" id="form-date" placeholder="Date" />
+            <input type="text" id="form-month" placeholder="Month" />
+            <input type="text" id="form-year" placeholder="Year" />
+        </div>
+        <div class="bttn">
+            <button type="button" id="submit-bttn" onclick="age()" >Submit</button>
+        </div>
+    </main>
+
+    <footer class="footer-container">
+        <div class="age" id="age"></div>
+    </footer>
+
+    <Script src="./index.js"></Script>
+
+
+</body>
+
+</html>
