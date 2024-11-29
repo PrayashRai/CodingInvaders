@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  h1 {
+    color: #be3838;background-color: blanchedalmond;
+    margin: 0px 0px 20px 0px;
+
+  }
+
+  .explanation {
+    background-color: #c3e8e6;
+    padding: 30px;
+    margin-top: 10px;
+  }
